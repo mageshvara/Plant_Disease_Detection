@@ -24,7 +24,7 @@ body {
     left: 840px;
     bottom: 28px;
     font-size: 16px;
-    position: fixed;
+ 
 }
 
 button {
@@ -36,7 +36,6 @@ button {
     color: #013220;
     font-family: 'Abril Fatface', cursive;
     font-size: 40px;
-    position: fixed;
     font-weight: 900;
     left: 840px;
     top: 56px;
@@ -115,18 +114,7 @@ button {
     }
 }
 
-form {
-    border-radius: 24px;
-    filter: drop-shadow(2px 2px 2px #000);
-    width: 264px;
-    height: 304px;
-    background-color: #C0C0C0;
-    position: fixed;
-    padding: 40px 40px 40px;
-    top: 240px;
-    left: 840px;
-    border: 1px #696969;
-}
+
 
 .imgboxtext {
     top: 400px;
@@ -201,36 +189,7 @@ button span {
     z-index: 2;
 }
 
-button:before,
-button:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    background-color: rgba(0, 128, 0, 0.3);
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-    -webkit-transform: translate(-100%, 0);
-    transform: translate(-100%, 0);
-    -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-}
 
-button:after {
-    -webkit-transition-delay: 0.2s;
-    transition-delay: 0.2s;
-}
-
-button:hover:before,
-button:hover:after {
-    -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
-}
 
 
 
