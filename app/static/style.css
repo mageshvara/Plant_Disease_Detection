@@ -80,7 +80,8 @@ button {
 }
 
 .inner {
-    position: fixed;
+    margin:auto;
+	texr-align:center;
     width: 348px;
 }
 
