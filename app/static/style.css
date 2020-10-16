@@ -59,6 +59,8 @@ button {
     left: 904px;
     top: 280px;
     text-align: center;
+	margin: auto;
+padding-left: 10px;
 }
 
 .middle {
@@ -139,7 +141,7 @@ button {
     top: 160px;
     left: 840px;
     font-size: 16px;
-    position: fixed;
+ 
 }
 
 .middle input[type="file"] {
@@ -278,6 +280,8 @@ button {
     top: 240px;
     left: 840px;
     border: 1px #696969;
+	margin:auto;
+	text-align:center;
 }
 
 .imgboxtext {
