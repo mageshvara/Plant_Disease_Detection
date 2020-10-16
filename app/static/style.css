@@ -275,7 +275,6 @@ button {
     filter: drop-shadow(2px 2px 2px #000);
     width: 264px;
     height: 304px;
-    background-color: #C0C0C0;
     padding: 40px 40px 40px;
     top: 240px;
     left: 840px;
@@ -396,6 +395,7 @@ button.analyze-button {
     background-color: #7052CB;
     font-size: 13px;
     color: #ffffff;
+	margin-top:10px;
 }
 
 button:focus {
