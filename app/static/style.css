@@ -749,15 +749,15 @@ header .item {
   }
   
   #carousel .carousel-item.boat {
-    background-image: url(images/header1.jpeg);
+    background-image: url(../static/header1.jpeg);
   }
   
   #carousel .carousel-item.sea {
-    background-image: url(images/header2.jpeg);
+    background-image: url(../static/header2.jpeg);
   }
   
   #carousel .carousel-item.river {
-    background-image: url(images/header3.jpeg);
+    background-image: url(header3.jpeg);
   }
   
   #carousel .carousel-item {
